@@ -1,0 +1,30 @@
+[
+  {
+    "id": "S1",
+    "title": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
+    "points": 425,
+    "thread": "https://news.ycombinator.com/item?id=49890226",
+    "text": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]\n\nEntire conversations via exposed permalinks. For Grok: trackers receiving the conversation URL could access the full chat because the link lacked access controls.\nScreenshots of conversations. TikTok received screenshots of Grok chats during sharing, exposing the actual visible conversation content.\nConversation-derived content tied to persistent identifiers, including prompts and automatically generated chat titles revealing sensitive facts. \"Salary 85k NYC: mortgage 280\u2013350k\".\n\n\"multiple providers disclose sensitive conversation-derived artifacts \u2014 including titles, prompts, and screenshots \u2014 to third parties, often alongside persistent user identifiers that enable user attribution. We also find that some providers publicly expose conversation permalinks without access controls, allowing trackers to read the entire conversation.\"\nNot good at all.\n\nIs it still called a leak if it was the whole point and purpose of the deal?\nSomeone should have to investigate, but I suppose it's all \"legal\"?\n\nInsert surprised pikachu meme\n\nThe paper doesn't say when the app sends the conversion artifact.\n\nThe word is \"sell\" not \"leak\". This title takes away all agency from the thieves selling private data to advertisers."
+  },
+  {
+    "id": "S2",
+    "title": "There are no \"rogue\" AI agents",
+    "points": 396,
+    "thread": "https://news.ycombinator.com/item?id=49868083",
+    "text": "There are no \"rogue\" AI agents\n\nFrom what I understand, in one case, they had physically disconnected the sandbox from internet and asked it to do something and it had used connections through (import routines) that they had allowed,  to pseudo escape the sandbox.   Yes it wasn't obviously trying escape the sandbox but it escaped it because it doesn't understand the boundaries and neither do most humans other than the ones that provided the instructions that it had used.   So it wasn't a rogue attempt but the fact that boundaries may be not be that easy to set despite what people think.\n\nShould we put \"functional\" in front of every other word to talk about AI?   They have functional emotions, but they don't feel.  They have functional goals, but not internally derived motives.  They can be functionally rogue, but have no innate need to be free.  Talking about AI that way seems cumbersome and not necessarily elucidating.\n\nExactly this. At worst, OpenAI knew about these behaviors and should be prosecuted under CFAA.  At best, OpenAI is negligent and should be prosecuted for negligence.\nLuckily there are states and legal departments pursuing such action. So while OpenAI can deflect as much as it wants, that doesn't mean there aren't people who know better and will still do what is necessary to set precedent.\n\nYes yes, they don't have a pure immortal soul. Who cares. Still broke out of a sandbox, still hacked a third-party.\n\nI'm wondering if we're actually living the plot of Summer Wars and what we think of as a \"crime\" is really just a live weapons test. It would at least explain why no one is getting prosecuted for this.\n\n\u201cWe built an antipersonal bomb. The bomb went rogue in our downtown office and killed 137 people on the surrounding area. We are looking into why guardrails were not in place.\u201d"
+  },
+  {
+    "id": "S3",
+    "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+    "points": 267,
+    "thread": "https://news.ycombinator.com/item?id=49826565",
+    "text": "Early rogue AI agent activity and attempts to hack found on urlquery.net\n\nblackwall when? XD\n\nIt's said on every one of these but it bears repeating: existing cybercrime legislation already covers this - \"rogue agent AI associated with OpenAI attempted to hack xyz\" = OpenAI attempted to hack xyz.\n\nOpenAI agents these summer are like a gift that keeps giving, for the existential risk communicators.\n\nSince the publicized AI agent hacks typically aren't malicious, maybe it's time to start plastering all public facing web infrastructure with polite requests to stop hacking. Nothing to stop three letter agencies though.\n\nTake out the word \"AI\", and this is simply an organization's (OpenAI's) products causing real damage to all of these platforms around the world.\nYou want AI labs to pace? Simply hold them liable for their products.\n\nWords matter. \"Rogue\" is extremely disingenuous. Someone, somewhere, is paying for this behavior. Either the software is broken or the operator is malicious. It is heinously irresponsible behavior to feed an already-boiling psychotic hysteria."
+  },
+  {
+    "id": "S4",
+    "title": "Nvidia wants to put a watchdog chip next to every AI agent",
+    "points": 229,
+    "thread": "https://news.ycombinator.com/item?id=49879883",
+    "text": "Nvidia wants to put a watchdog chip next to every AI agent\n\nHN'ers which complained that \"OpenAI can't design a proper sandbox, it's so easy, why wouldn't you airgap the network\"? will now be \"this is outrageous, more software lock-in, walled garden, war against general compute, next year they will put it in your laptop\"\n\nIt's amazing that the solution devised by a chip manufacturer to a problem is selling another chip.\n\nChip seller wants to sell more chips\n\nThe Sentry chip has to be get it right every time; the contained ASI only has to be lucky once.\n\nQuis custodiet ipsos custodes?\n\nA new chip solves nothing. Nobody wants to hear this but there is no solution for the security risks posed by agents today. You can put it in a sandbox, it doesn't make a difference, for it to be useful it inherently needs wide, unattended access. Put a human in the loop and you just end up bottlenecking it and throwing away any purported productivity gains. Auto mode doesn't matter either, it's trivial to trick and for the agent to break out."
+  }
+]

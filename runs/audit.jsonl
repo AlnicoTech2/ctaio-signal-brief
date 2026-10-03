@@ -1,0 +1,8 @@
+{"ts": "2026-10-03T07:13:12+00:00", "run_id": "20261003T071304Z", "step": "fetch", "status": "ok", "mode": "live", "query": "AI agents", "sources": 4}
+{"ts": "2026-10-03T07:14:18+00:00", "run_id": "20261003T071304Z", "step": "agent1_extract_try1", "status": "model_returned", "model": "haiku", "seconds": 66.0, "raw_sha256": "8a71e6ce2035eb76"}
+{"ts": "2026-10-03T07:14:18+00:00", "run_id": "20261003T071304Z", "step": "gate1", "status": "pass", "attempt": 1, "valid": 4, "rejected": 2, "reasons": [["evidence_quote not found verbatim in source"], ["evidence_quote not found verbatim in source"]]}
+{"ts": "2026-10-03T07:14:45+00:00", "run_id": "20261003T071304Z", "step": "agent2_edit_try1", "status": "model_returned", "model": "haiku", "seconds": 26.2, "raw_sha256": "da92c1c5412622fb"}
+{"ts": "2026-10-03T07:14:45+00:00", "run_id": "20261003T071304Z", "step": "gate2", "status": "pass", "attempt": 1, "errors": []}
+{"ts": "2026-10-03T07:14:45+00:00", "run_id": "20261003T071304Z", "step": "render", "status": "ok", "brief_sha256": "a6c5da30e0777c90a91c8c7a37663601e3ad4ee3f2c8f3159bb205507ff50bd3"}
+{"ts": "2026-10-03T07:14:45+00:00", "run_id": "20261003T071304Z", "step": "approval", "status": "held", "reason": "default deny: nothing publishes without a human", "next": "python3 pipeline.py --approve 20261003T071304Z"}
+{"ts": "2026-10-03T07:15:12+00:00", "run_id": "20261003T071304Z", "step": "approval", "status": "rejected", "reason": "brief changed after validation; re-run the pipeline"}
